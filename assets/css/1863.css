@@ -1,0 +1,61 @@
+body{
+ width: 50%;
+ height: 100%;
+}
+
+.hiddenimg {
+  display: none;
+  right: 300px;
+  position: absolute;
+
+}
+
+.hiddentxt {
+  font-weight: regular;
+  color: #000;
+  z-index:99;
+
+
+  }
+
+  a:hover {
+    color: #675534;
+  }
+
+
+}
+
+.hiddentxt a {
+  color: #000;
+  text-decoration: none;
+  z-index: 99;
+}
+
+.hiddenclick {
+  font-weight: regular;
+  color: #f9f3e0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hiddenclick a {
+  color: #f9f3e0;
+  text-decoration: none;
+}
+
+.hiddenclick a:visited {
+  color: #f9f3e0;
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: absolute;
+    z-index: 2
+
+}
+
+.hiddenclickimg {
+  display: none;
+
+}
